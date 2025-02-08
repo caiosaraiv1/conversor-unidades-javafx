@@ -18,7 +18,6 @@ Um aplicativo desktop desenvolvido em Java com JavaFX que permite converter dife
 - JavaFX
 - FXML
 - CSS
-- Scene Builder
 
 ## 📋 Pré-requisitos
 
