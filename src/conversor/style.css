@@ -1,0 +1,51 @@
+.root{
+	-fx-background-color: #f4f4f4;
+	-fx-font-family: Raleway;
+}
+
+.title-label{
+	-fx-font-size: 24px;
+	-fx-font-weight: normal;
+	-fx-text-fill: #333333;
+}
+
+.text-field {
+	-fx-pref-width: 150px;
+	-fx-padding: 5px;
+	-fx-background-color:white;
+	-fx-border-color: #ccc;
+	-fx-border-radius: 10px;
+}
+
+.text-field:hover {
+	-fx-background-color: #f0f0f0;
+}
+
+.combo-box {
+	-fx-pref-width: 120px;
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10px;
+}
+
+.combo-box:hover {
+	-fx-background-color: #f0f0f0;
+}
+
+.button {
+	-fx-pref-width: 200px;
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+}
+.button:hover {
+    -fx-background-color: #45a049; 
+}
+
+.resultado-label {
+	-fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
