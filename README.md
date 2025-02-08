@@ -73,11 +73,3 @@ git clone https://github.com/seu-usuario/conversor-unidades.git
 ## 🎨 Personalização
 
 O aplicativo utiliza um arquivo CSS externo para estilização e a fonte Raleway do Google Fonts, permitindo fácil personalização do visual.
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## ✒️ Autor
-
-Seu Nome - [Seu GitHub](https://github.com/seu-usuario)
