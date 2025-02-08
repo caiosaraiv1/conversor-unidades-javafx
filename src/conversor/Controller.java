@@ -82,34 +82,31 @@ public class Controller {
 		} else if ((unidadeEntrada.equals("M/S") && unidadeSaida.equals("MPH"))) {
 			return 2.237;
 		} else if(unidadeEntrada.equals("USD") && unidadeSaida.equals("BRL")) {
-        	return 5.75;
-        } else if(unidadeEntrada.equals("BRL") && unidadeSaida.equals("USD")) {
-        	return 0.17;
-        } else if(unidadeEntrada.equals("BRL") && unidadeSaida.equals("EUR")) {
-        	return 0.16;
-        } else if(unidadeEntrada.equals("EUR") && unidadeSaida.equals("BRL")) {
-        	return 5.95;
-        } else if(unidadeEntrada.equals("BRL") && unidadeSaida.equals("GBP")) {
-        	return 0.14;
-        } else if(unidadeEntrada.equals("GBP") && unidadeSaida.equals("BRL")) {
-        	return 7.17;
-        } else if(unidadeEntrada.equals("USD") && unidadeSaida.equals("GBP")) {
-        	return 0.81;
-        } else if(unidadeEntrada.equals("USD") && unidadeSaida.equals("EUR")) {
-        	return 0.97;
-        } else if(unidadeEntrada.equals("GBP") && unidadeSaida.equals("USD")) {
-        	return 1.24;
-        } else if(unidadeEntrada.equals("GBP") && unidadeSaida.equals("EUR")) {
-        	return 1.20;
-        } else if(unidadeEntrada.equals("EUR") && unidadeSaida.equals("USD")) {
-        	return 1.03;
-        } else if(unidadeEntrada.equals("EUR") && unidadeSaida.equals("GBP")) {
-        	return 0.83;        	
-        } else {
-        	return -1;
-        }
+        		return 5.75;
+        	} else if(unidadeEntrada.equals("BRL") && unidadeSaida.equals("USD")) {
+        		return 0.17;
+	        } else if(unidadeEntrada.equals("BRL") && unidadeSaida.equals("EUR")) {
+	        	return 0.16;
+	        } else if(unidadeEntrada.equals("EUR") && unidadeSaida.equals("BRL")) {
+	        	return 5.95;
+	        } else if(unidadeEntrada.equals("BRL") && unidadeSaida.equals("GBP")) {
+	        	return 0.14;
+	        } else if(unidadeEntrada.equals("GBP") && unidadeSaida.equals("BRL")) {
+	        	return 7.17;
+	        } else if(unidadeEntrada.equals("USD") && unidadeSaida.equals("GBP")) {
+	        	return 0.81;
+	        } else if(unidadeEntrada.equals("USD") && unidadeSaida.equals("EUR")) {
+	        	return 0.97;
+	        } else if(unidadeEntrada.equals("GBP") && unidadeSaida.equals("USD")) {
+	        	return 1.24;
+	        } else if(unidadeEntrada.equals("GBP") && unidadeSaida.equals("EUR")) {
+	        	return 1.20;
+	        } else if(unidadeEntrada.equals("EUR") && unidadeSaida.equals("USD")) {
+	        	return 1.03;
+	        } else if(unidadeEntrada.equals("EUR") && unidadeSaida.equals("GBP")) {
+	        	return 0.83;        	
+	        } else {
+	        	return -1;
+	        }
 	}
-	
-	
-
 }
